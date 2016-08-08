@@ -35,9 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,6 +74,7 @@
     <Compile Include="Runtime\SamplesTests.cs" />
     <Compile Include="Runtime\InteropTests.cs" />
     <Compile Include="Runtime\EngineTests.cs" />
+    <Compile Include="Serialization\JavascriptSerializationTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Parser\Scripts\jQuery.js" />
